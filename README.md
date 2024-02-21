@@ -13,25 +13,19 @@ The ChatBox React Component is a customizable chat interface that can be easily 
 
 You can install the ChatBox React Component via npm:
 
-
 ## Usage
 
 ```jsx
 import React from "react";
-import style from "./app.module.css";
 import ChatBox from "chatbox-react-component";
 
 function App() {
   return (
-    <div className={style.app}>
-      <div className={style.chatBoxContainer}>
-        <ChatBox
-          position="bottom-right"
-          greetingMessage="Hello! Welcome to our chat."
-        />
-      </div>
+    <div>
+      <ChatBox position="botton-right" greetingMessage="hello" />
     </div>
   );
 }
 
 export default App;
+```
