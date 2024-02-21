@@ -1,6 +1,6 @@
 {
   "name": "@helya_ze/chatbox",
-  "version": "0.3.4",
+  "version": "0.3.5",
   "description": "chatBox component",
   "main": "dist/index.js",
   "module": "dist/index.js",
