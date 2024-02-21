@@ -22,13 +22,15 @@ const ChatBox = ({ greetingMessage, position }) => {
   };
 
   return (
-    <div className={style.container}>
-      <div className={`${style.chatBox} ${getPositionClass()}`}>
-        <ChatModal
-          message={greetingMessage}
-          className={` ${!isOpen ? style.close : ""}`}
-        />
-        <Button onClick={handleClick} color="#fff" isOpen={isOpen} />
+    <div className={style.app}>
+      <div className={style.container}>
+        <div className={`${style.chatBox} ${getPositionClass()}`}>
+          <ChatModal
+            message={greetingMessage}
+            className={` ${!isOpen ? style.close : ""}`}
+          />
+          <Button onClick={handleClick} color="#fff" isOpen={isOpen} />
+        </div>
       </div>
     </div>
   );
