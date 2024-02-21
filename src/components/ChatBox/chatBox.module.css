@@ -1,0 +1,25 @@
+.container {
+  position: relative;
+}
+
+.chatBox {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+}
+
+.close {
+  display: none;
+}
+
+.bottomLeft {
+  bottom: 10px;
+  left: 10px;
+  align-items: flex-start;
+}
+
+.bottomRight {
+  bottom: 10px;
+  right: 10px;
+  align-items: flex-end;
+}
