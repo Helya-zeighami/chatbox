@@ -17,7 +17,7 @@ You can install the ChatBox React Component via npm:
 
 ```jsx
 import React from "react";
-import {ChatBox} from "@helya_ze/chatbox";
+import ChatBox from "@helya_ze/chatbox";
 
 function App() {
   return (
